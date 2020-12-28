@@ -89,6 +89,7 @@ const IndexPage = ({ data }) => {
           content="Oferujemy kompleksowe ubezpieczenia komunikacyjne, turystyczne, mieszkań i domów, na życie, a także wiele innych. Wyliczymy dla Ciebie ofertę spośród 30 największych Towarzystw Ubezpieczeniowych. "
         />
         <link rel="icon" href={favicon} />
+      <meta name="google-site-verification" content="tCOPMPyTFuykNCmuzMcgGk9PAyjzs5zYwt5s0WrwWcw" />
       </Helmet>
       <Navigation />
       <Carousel className="carousel" indicators={false}>
