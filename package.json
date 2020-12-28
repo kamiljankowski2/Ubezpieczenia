@@ -1,0 +1,32 @@
+{
+  "name": "my-gatsby-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "My Gatsby Site",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "license": "0BSD",
+  "dependencies": {
+    "bootstrap": "^4.5.3",
+    "gatsby": "^2.26.1",
+    "gatsby-plugin-react-helmet": "^3.7.0",
+    "gatsby-plugin-recaptcha": "^1.0.5",
+    "gatsby-source-datocms": "^2.5.7",
+    "gatsby-source-formspree": "0.0.2",
+    "react": "^16.13.1",
+    "react-bootstrap": "^1.4.0",
+    "react-bootstrap-icons": "^1.2.2",
+    "react-dom": "^16.13.1",
+    "react-helmet": "^6.1.0",
+    "react-slick": "^0.27.13",
+    "slick-carousel": "^1.8.1"
+  }
+}
