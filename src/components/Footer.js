@@ -15,9 +15,6 @@ const Footer = ({ data }) => {
             <Row>
               <Col md={4} sm={12} className="left-column column mb-5">
                 <img src={logo} alt="Elwart Ubezpieczenia" className="mb-4" />
-                <a href="www.facebook.pl" className="social-link">
-                  <Facebook size={35} />
-                </a>
               </Col>
               <Col md={4} sm={12} className="left-column column ">
                 <ul className="footer-list">

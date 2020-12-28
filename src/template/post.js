@@ -13,6 +13,7 @@ const Post = ({ pageContext: { slug }, data: { post } }) => {
     <>
       <Helmet>
         <meta charSet="utf-8" />
+        <meta name="robots" content="index,follow" />
         <title>{post.title} – Elwart Ubezpieczenia</title>
         <meta name="description" content="" />
       </Helmet>

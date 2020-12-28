@@ -6,6 +6,7 @@ import Carousel from "react-bootstrap/Carousel";
 import cover1 from "../assets/images/cover1.png";
 import cover2 from "../assets/images/cover2.png";
 import cover3 from "../assets/images/cover3.png";
+import favicon from "../assets/images/logo-image.png";
 import gap from "../assets/icons/gap.png";
 import turystyczne from "../assets/icons/turystyczne.png";
 import szkolne from "../assets/icons/szkolne.png";
@@ -53,8 +54,6 @@ const IndexPage = ({ data }) => {
         settings: {
           slidesToShow: 3,
           slidesToScroll: 3,
-          infinite: true,
-          dots: true,
         },
       },
       {
@@ -80,6 +79,7 @@ const IndexPage = ({ data }) => {
     <>
       <Helmet>
         <meta charSet="utf-8" />
+        <meta name="robots" content="index,follow" />
         <title>
           Ubezpieczenia na życie, komunikacyjne, turystyczne i wiele innych –
           Elwart Ubezpieczenia
@@ -88,6 +88,7 @@ const IndexPage = ({ data }) => {
           name="description"
           content="Oferujemy kompleksowe ubezpieczenia komunikacyjne, turystyczne, mieszkań i domów, na życie, a także wiele innych. Wyliczymy dla Ciebie ofertę spośród 30 największych Towarzystw Ubezpieczeniowych. "
         />
+        <link rel="icon" href={favicon} />
       </Helmet>
       <Navigation />
       <Carousel className="carousel" indicators={false}>
@@ -344,7 +345,7 @@ const IndexPage = ({ data }) => {
                           </h3>
                           {node.date}
                           <Link
-                            to={node.url}
+                            to={`aktualnosci/${node.url}`}
                             className="btn btn-primary btn-navy btn-more"
                           >
                             Czytaj

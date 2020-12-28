@@ -17,6 +17,7 @@ const OfferList = ({ data }) => {
     <>
       <Helmet>
         <meta charSet="utf-8" />
+        <meta name="robots" content="index,follow" />
         <title>
           Oferta ubezpieczeń: szkolne, tursystyczne, na życie – Bydgoszcz –
           Elwart Ubezpieczenia
@@ -62,7 +63,7 @@ const OfferList = ({ data }) => {
           <Row>
             <Col lg={12} className="mx-auto mt-5  offer-list">
               <h2 className=" font-weight-bold border-heading my-5  ">
-                Trzeba wymyślić nagłówek
+                Ubezpieczamy w każdej dziedzinie
               </h2>
               <ListGroup className="list-group-offer mx-auto">
                 {offer.map(({ node }) => {

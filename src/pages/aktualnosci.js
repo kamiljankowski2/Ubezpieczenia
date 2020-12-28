@@ -17,6 +17,7 @@ const News = ({ data }) => {
     <>
       <Helmet>
         <meta charSet="utf-8" />
+        <meta name="robots" content="index,follow" />
         <title>
           Aktualności o ubezpieczniach – Bydgoszcz – Elwart Ubezpieczenia
         </title>

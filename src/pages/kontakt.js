@@ -13,6 +13,7 @@ const Kontakt = () => {
     <>
       <Helmet>
         <meta charSet="utf-8" />
+        <meta name="robots" content="index,follow" />
         <title>Kontakt – Bydgoszcz – Elwart Ubezpieczenia</title>
         <meta
           name="description"

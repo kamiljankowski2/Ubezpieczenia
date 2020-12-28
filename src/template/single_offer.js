@@ -14,6 +14,7 @@ const singleOffer = ({ pageContext: { slug }, data: { offer } }) => {
     <>
       <Helmet>
         <meta charSet="utf-8" />
+        <meta name="robots" content="index,follow" />
         <title>{offer.title} – Elwart Ubezpieczenia</title>
         <meta name="description" content="" />
       </Helmet>
