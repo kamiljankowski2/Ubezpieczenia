@@ -218,7 +218,7 @@ const IndexPage = ({ data }) => {
                 sportowego.
               </p>
               <Link
-                to="/oferta/ubezpieczenia-turystyczne-bydgoszcz"
+                to="/kontakt"
                 className=" btn btn-primary btn-navy"
               >
                 Napisz do nas!
@@ -241,7 +241,7 @@ const IndexPage = ({ data }) => {
                 spłatę zobowiązania leasingowego/kredytowego.
               </p>
               <Link
-                to="/oferta/ubezpieczenia-komunikacyjne-w-bydgoszczy"
+                to="kontakt"
                 className=" btn btn-primary btn-navy"
               >
                 Napisz do nas!
