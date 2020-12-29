@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: "My Gatsby Site",
+    title: "Elwart Ubezpieczenia",
+    siteUrl: `https://elwartubezpieczenia.pl/`,
   },
   plugins: [
     {
@@ -10,5 +11,6 @@ module.exports = {
       },
     },
     "gatsby-plugin-react-helmet",
+    `gatsby-plugin-sitemap`,
   ],
 };

@@ -89,7 +89,6 @@ const IndexPage = ({ data }) => {
           content="Oferujemy kompleksowe ubezpieczenia komunikacyjne, turystyczne, mieszkań i domów, na życie, a także wiele innych. Wyliczymy dla Ciebie ofertę spośród 30 największych Towarzystw Ubezpieczeniowych. "
         />
         <link rel="icon" href={favicon} />
-      <meta name="google-site-verification" content="tCOPMPyTFuykNCmuzMcgGk9PAyjzs5zYwt5s0WrwWcw" />
       </Helmet>
       <Navigation />
       <Carousel className="carousel" indicators={false}>
@@ -219,7 +218,7 @@ const IndexPage = ({ data }) => {
                 sportowego.
               </p>
               <Link
-                to="/kontakt"
+                to="/oferta/ubezpieczenia-turystyczne-bydgoszcz"
                 className=" btn btn-primary btn-navy"
               >
                 Napisz do nas!
@@ -242,7 +241,7 @@ const IndexPage = ({ data }) => {
                 spłatę zobowiązania leasingowego/kredytowego.
               </p>
               <Link
-                to="kontakt"
+                to="/oferta/ubezpieczenia-komunikacyjne-w-bydgoszczy"
                 className=" btn btn-primary btn-navy"
               >
                 Napisz do nas!

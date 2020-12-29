@@ -19,6 +19,7 @@
     "gatsby": "^2.26.1",
     "gatsby-plugin-react-helmet": "^3.7.0",
     "gatsby-plugin-recaptcha": "^1.0.5",
+    "gatsby-plugin-sitemap": "^2.9.0",
     "gatsby-source-datocms": "^2.5.7",
     "gatsby-source-formspree": "0.0.2",
     "react": "^16.13.1",
