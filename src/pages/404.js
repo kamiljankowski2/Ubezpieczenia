@@ -5,10 +5,23 @@ import Footer from "../components/Footer";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../assets/style.css";
 import Container from "react-bootstrap/Container";
-
+import { Helmet } from "react-helmet";
 const NotFoundPage = () => {
   return (
     <>
+    
+       <Helmet>
+        <meta charSet="utf-8" />
+        <meta name="robots" content="noindex,follow" />
+        <title>
+          404 Strona nie istnieje – Bydgoszcz –
+          Elwart Ubezpieczenia
+        </title>
+        <meta
+          name="description"
+          content=""
+        />
+      </Helmet>
       <Navigation />
       <Container>
         <main className="d-flex flex-column align-items-center justify-content-center section-404">
