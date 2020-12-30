@@ -7,9 +7,9 @@ import cover1 from "../assets/images/cover1.png";
 import cover2 from "../assets/images/cover2.png";
 import cover3 from "../assets/images/cover3.png";
 import favicon from "../assets/images/logo-image.png";
-import gap from "../assets/icons/gap.png";
+import komunikacyjne from "../assets/icons/komunikacyjne.png";
 import turystyczne from "../assets/icons/turystyczne.png";
-import szkolne from "../assets/icons/szkolne.png";
+import mieszkan from "../assets/icons/mieszkan.png";
 import { Link } from "gatsby";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -154,24 +154,24 @@ const IndexPage = ({ data }) => {
                     className="offer-link"
                   >
                     <img
-                      src={gap}
-                      alt="Ubezpieczenie GAP"
-                      className="offer-icon"
+                      src={komunikacyjne}
+                      alt="Ubezpieczenie komunikacyjne"
+                      className="offer-icon mt-4"
                     />
-                    Ubezpieczenie GAP
+                    Ubezpieczenie komunikacyjne
                   </Link>
                 </li>
                 <li className="list-item list-item-index">
                   <Link
-                    to="/oferta/ubezpieczenia-szkolne-bydgoszcz"
+                    to="/oferta/ubezpieczenia-mieszkan-w-bydgoszczy"
                     className="offer-link"
                   >
                     <img
-                      src={szkolne}
-                      alt="Ubezpieczenie na szkolne"
+                      src={mieszkan}
+                      alt="Ubezpieczenie mieszkań"
                       className="offer-icon"
                     />
-                    Ubezpieczenie szkolne
+                    Ubezpieczenie mieszkań
                   </Link>
                 </li>
                 <li className="list-item list-item-index">
@@ -217,10 +217,7 @@ const IndexPage = ({ data }) => {
                 OC turystyczne, opóźnienie lotu lub ochronę przewożonego sprzętu
                 sportowego.
               </p>
-              <Link
-                to="/kontakt"
-                className=" btn btn-primary btn-navy"
-              >
+              <Link to="/kontakt" className=" btn btn-primary btn-navy">
                 Napisz do nas!
               </Link>
             </Col>
@@ -240,10 +237,7 @@ const IndexPage = ({ data }) => {
                 odszkodowania ułatwia zakup nowego pojazdu tej samej klasy lub
                 spłatę zobowiązania leasingowego/kredytowego.
               </p>
-              <Link
-                to="/kontakt"
-                className=" btn btn-primary btn-navy"
-              >
+              <Link to="/kontakt" className=" btn btn-primary btn-navy">
                 Napisz do nas!
               </Link>
             </Col>

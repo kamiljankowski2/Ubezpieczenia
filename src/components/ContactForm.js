@@ -1,6 +1,7 @@
 import React from "react";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
+import Reaptcha from "reaptcha";
 
 const ContactForm = ({ data }) => {
   return (
@@ -55,6 +56,10 @@ const ContactForm = ({ data }) => {
           id={`terms-agree`}
           label={`Wyrażam zgodę na przetwarzanie moich danych osobowych przez Elwart Finanse Mateusz Elwart z siedzibą w Bydgoszczy, ul. Karola Szajnochy 2, w celu udzielenia odpowiedzi, w tym przedłożenia oferty jeśli o nią pytam. Moje dane osobowe będą przetwarzane do czasu cofnięcia zgody lub przez okres niezbędny do ustalenia, dochodzenia lub obrony roszczeń. Mam prawo dostępu do danych, sprostowania, usunięcia lub ograniczenia przetwarzania, prawo sprzeciwu, prawo wniesienia skargi do organu nadzorczego i prawo do przeniesienia danych.`}
           required
+        />
+        <Reaptcha
+          sitekey="6LexoBoaAAAAACzH868eY2ODBD4UsuZ_20gC7_AB"
+          className="mb-2"
         />
         <Button type="submit" className="btn-navy">
           Wyślij

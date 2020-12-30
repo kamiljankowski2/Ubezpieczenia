@@ -37,7 +37,7 @@ const Kontakt = () => {
           </Col>
           <Col md={6} sm={12} className="mt-lg-5 mt-md-0">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4788.705507167768!2d18.06168!3d53.121813!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9100845e6e05b3ad!2sElwart%20Ubezpieczenia!5e0!3m2!1spl!2spl!4v1608979750176!5m2!1spl!2spl"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2013.2381269993894!2d18.001514527342504!3d53.12532531754611!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470313bec83291fb%3A0xddb1063ee604bd24!2sGda%C5%84ska%2010%2C%2085-110%20Bydgoszcz!5e0!3m2!1spl!2spl!4v1609347409342!5m2!1spl!2spl"
               frameborder="0"
               allowfullscreen=""
               aria-hidden="false"
@@ -46,7 +46,7 @@ const Kontakt = () => {
             ></iframe>
             <address>
               <strong>Elwart Ubezpieczenia</strong> <br />
-              <span>ul. Karola Szajnochy 2 lokal 320, 85-738 Bydgoszcz</span>
+              <span>ul. Gdańska 10/11F, 85-110 Bydgoszcz</span>
               <br />
               <span className="font-weight-bold">NIP:</span> 5581857844
               <br />
