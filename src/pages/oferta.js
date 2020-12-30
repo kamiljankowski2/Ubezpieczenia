@@ -72,7 +72,7 @@ const OfferList = ({ data }) => {
                       <Link to={node.url} className="offer-link">
                         <img
                           src={node.icon.url}
-                          alt={node.icon.url}
+                          alt={node.icon.alt}
                           className="offer-icon"
                         />
 
