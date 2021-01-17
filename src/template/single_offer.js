@@ -17,6 +17,10 @@ const singleOffer = ({ pageContext: { slug }, data: { offer } }) => {
         <meta name="robots" content="index,follow" />
         <title>{offer.title} – Elwart Ubezpieczenia</title>
         <meta name="description" content="" />
+        <link
+          rel="canonical"
+          href={`https://elwartubezpieczenia.pl/oferta/${offer.url}`}
+        />
       </Helmet>
       <Navigation />
 
@@ -50,6 +54,7 @@ export const query = graphql`
       id
       title
       content
+      url
     }
   }
 `;

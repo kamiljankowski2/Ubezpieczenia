@@ -25,6 +25,10 @@ const News = ({ data }) => {
           name="description"
           content="Chętnie dzielimy się informacjami z branży ubezpieczeń i życia naszej firmy. Znajdziesz u nas aktualne artykuły odnośnie kar za brak obowiązkowego ubezpieczenia OC."
         />
+        <link
+          rel="canonical"
+          href="https://elwartubezpieczenia.pl/aktualnosci"
+        />
       </Helmet>
 
       <Navigation />

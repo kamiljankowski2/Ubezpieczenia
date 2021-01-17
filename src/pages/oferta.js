@@ -26,6 +26,7 @@ const OfferList = ({ data }) => {
           name="description"
           content="Szukasz dobrego ubezpieczenia dla siebie lub dla swojej firmy? Odwiedź naszą stronę i sprawdź aktualną ofertę ubezpieczeń komunikacyjnych, mieszkań i domów, zdrowotnych, szkolnych oraz firmowych."
         />
+        <link rel="canonical" href="https://elwartubezpieczenia.pl/oferta" />
       </Helmet>
 
       <Navigation />

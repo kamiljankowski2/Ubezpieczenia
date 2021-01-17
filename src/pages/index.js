@@ -88,6 +88,7 @@ const IndexPage = ({ data }) => {
           name="description"
           content="Oferujemy kompleksowe ubezpieczenia komunikacyjne, turystyczne, mieszkań i domów, na życie, a także wiele innych. Wyliczymy dla Ciebie ofertę spośród 30 największych Towarzystw Ubezpieczeniowych. "
         />
+        <link rel="canonical" href="https://elwartubezpieczenia.pl/" />
         <link rel="icon" href={favicon} />
       </Helmet>
       <Navigation />

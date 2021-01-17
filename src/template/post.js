@@ -16,6 +16,10 @@ const Post = ({ pageContext: { slug }, data: { post } }) => {
         <meta name="robots" content="index,follow" />
         <title>{post.title} – Elwart Ubezpieczenia</title>
         <meta name="description" content="" />
+        <link
+          rel="canonical"
+          href={`https://elwartubezpieczenia.pl/aktualnosci/${post.url}`}
+        />
       </Helmet>
       <Navigation />
 
@@ -45,6 +49,7 @@ export const query = graphql`
       id
       title
       content
+      url
       cover {
         url
       }

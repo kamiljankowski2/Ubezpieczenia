@@ -20,6 +20,7 @@ const Kontakt = () => {
           content="Potrzebujesz wsparcia przy zakupie lub obsłudze ubezpieczenia? Skontaktuj się nami! Infolinia dostępna od poniedziałku do piątku w godzinach 08:00 - 16:00, w soboty: 08:00 - 14:00.
           "
         />
+        <link rel="canonical" href="https://elwartubezpieczenia.pl/kontakt" />
       </Helmet>
 
       <Navigation />
@@ -56,7 +57,8 @@ const Kontakt = () => {
               17:00
               <br />
               <span className="font-weight-bold">Telefon:</span>
-              <a href="tel:+48785192916">+48 785-192-916</a>
+              <a href="tel:+48785192916">{"  "}+48 785-192-916</a>
+              {"  "}
               <a href="tel:+48695832045">+48 695-832-045</a>
               <br />
               <span className="font-weight-bold">Email: </span>

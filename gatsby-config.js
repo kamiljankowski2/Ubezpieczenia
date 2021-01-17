@@ -12,5 +12,13 @@ module.exports = {
     },
     "gatsby-plugin-react-helmet",
     `gatsby-plugin-sitemap`,
+    {
+      resolve: "gatsby-plugin-robots-txt",
+      options: {
+        host: "https://elwartubezpieczenia.pl/",
+        sitemap: "https://elwartubezpieczenia.pl/sitemap.xml",
+        policy: [{ userAgent: "*", allow: "/" }],
+      },
+    },
   ],
 };
