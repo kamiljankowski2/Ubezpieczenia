@@ -12,7 +12,11 @@ import { Helmet } from "react-helmet";
 const singleOffer = ({ pageContext: { slug }, data: { offer } }) => {
   return (
     <>
-      <Helmet>
+      <Helmet
+        htmlAttributes={{
+          lang: "pl",
+        }}
+      >
         <meta charSet="utf-8" />
         <meta name="robots" content="index,follow" />
         <title>{offer.title} – Elwart Ubezpieczenia</title>

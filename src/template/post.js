@@ -11,7 +11,11 @@ import { Helmet } from "react-helmet";
 const Post = ({ pageContext: { slug }, data: { post } }) => {
   return (
     <>
-      <Helmet>
+      <Helmet
+        htmlAttributes={{
+          lang: "pl",
+        }}
+      >
         <meta charSet="utf-8" />
         <meta name="robots" content="index,follow" />
         <title>{post.title} – Elwart Ubezpieczenia</title>

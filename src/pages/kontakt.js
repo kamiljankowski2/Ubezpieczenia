@@ -11,7 +11,11 @@ import Col from "react-bootstrap/Col";
 const Kontakt = () => {
   return (
     <>
-      <Helmet>
+      <Helmet
+        htmlAttributes={{
+          lang: "pl",
+        }}
+      >
         <meta charSet="utf-8" />
         <meta name="robots" content="index,follow" />
         <title>Kontakt – Bydgoszcz – Elwart Ubezpieczenia</title>

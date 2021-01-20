@@ -9,18 +9,17 @@ import { Helmet } from "react-helmet";
 const NotFoundPage = () => {
   return (
     <>
-    
-       <Helmet>
+      <Helmet
+        htmlAttributes={{
+          lang: "pl",
+        }}
+      >
         <meta charSet="utf-8" />
         <meta name="robots" content="noindex,follow" />
         <title>
-          404 Strona nie istnieje – Bydgoszcz –
-          Elwart Ubezpieczenia
+          404 Strona nie istnieje – Bydgoszcz – Elwart Ubezpieczenia
         </title>
-        <meta
-          name="description"
-          content=""
-        />
+        <meta name="description" content="" />
       </Helmet>
       <Navigation />
       <Container>

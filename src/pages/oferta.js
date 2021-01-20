@@ -15,7 +15,11 @@ const OfferList = ({ data }) => {
   const offer = data.allDatoCmsOffer.edges;
   return (
     <>
-      <Helmet>
+      <Helmet
+        htmlAttributes={{
+          lang: "pl",
+        }}
+      >
         <meta charSet="utf-8" />
         <meta name="robots" content="index,follow" />
         <title>

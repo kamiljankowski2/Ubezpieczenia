@@ -9,7 +9,11 @@ import { Helmet } from "react-helmet";
 const NotFoundPage = () => {
   return (
     <>
-      <Helmet>
+      <Helmet
+        htmlAttributes={{
+          lang: "pl",
+        }}
+      >
         <meta charSet="utf-8" />
         <meta name="robots" content="noindex,follow" />
         <title>Polityka prywatności – Bydgoszcz – Elwart Ubezpieczenia</title>

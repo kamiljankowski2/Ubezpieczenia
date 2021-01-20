@@ -77,10 +77,11 @@ const IndexPage = ({ data }) => {
   const CompanyList = data.allDatoCmsCompany.edges;
   return (
     <>
-      <Helmet   htmlAttributes={{
-    lang: 'en',
-  }}>
-    
+      <Helmet
+        htmlAttributes={{
+          lang: "pl",
+        }}
+      >
         <meta charSet="utf-8" />
         <meta name="robots" content="index,follow" />
         <title>
