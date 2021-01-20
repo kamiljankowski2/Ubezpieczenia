@@ -157,7 +157,7 @@ const IndexPage = ({ data }) => {
                     <img
                       src={komunikacyjne}
                       alt="Ubezpieczenie komunikacyjne"
-                      className="offer-icon mt-4"
+                      className="offer-icon  mt-4"
                     />
                     Ubezpieczenie komunikacyjne
                   </Link>

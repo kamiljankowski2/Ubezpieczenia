@@ -18,12 +18,12 @@ const Footer = ({ data }) => {
               </Col>
               <Col md={4} sm={12} className="left-column column ">
                 <ul className="footer-list">
-                  <li>
+                  <li className="footer-item">
                     <Link to="/" className="footer-link font-weight-bold ">
                       Strona główna
                     </Link>
                   </li>
-                  <li>
+                  <li className="footer-item">
                     <Link
                       to="/kontakt"
                       className="footer-link font-weight-bold "
@@ -31,7 +31,7 @@ const Footer = ({ data }) => {
                       Kontakt
                     </Link>
                   </li>
-                  <li>
+                  <li className="footer-item">
                     <Link
                       to="/aktualnosci"
                       className="footer-link font-weight-bold "
@@ -39,7 +39,7 @@ const Footer = ({ data }) => {
                       Aktualności
                     </Link>
                   </li>
-                  <li>
+                  <li className="footer-item">
                     <Link
                       to="/polityka-prywatnosci"
                       className="footer-link font-weight-bold "
@@ -57,7 +57,7 @@ const Footer = ({ data }) => {
                   Oferta
                 </Link>
                 <ul className="footer-list footer-list-offer ">
-                  <li>
+                  <li className="footer-item">
                     <Link
                       to="/oferta/ubezpieczenia-zdrowotne-bydgoszcz"
                       className="footer-link "
@@ -65,7 +65,7 @@ const Footer = ({ data }) => {
                       Ubezpieczenie zdrowotne
                     </Link>
                   </li>
-                  <li>
+                  <li className="footer-item">
                     <Link
                       to="/oferta/ubezpieczenia-turystyczne-bydgoszcz"
                       className="footer-link  "
@@ -73,7 +73,7 @@ const Footer = ({ data }) => {
                       Ubezpieczenie turystyczne
                     </Link>
                   </li>
-                  <li>
+                  <li className="footer-item">
                     <Link
                       to="/oferta/ubezpieczenia-szkolne-bydgoszcz"
                       className="footer-link  "
@@ -81,7 +81,7 @@ const Footer = ({ data }) => {
                       Ubezpieczenie szkolne
                     </Link>
                   </li>
-                  <li>
+                  <li className="footer-item">
                     <Link
                       to="/oferta/ubezpieczenia-komunikacyjne-w-bydgoszczy"
                       className="footer-link  "

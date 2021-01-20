@@ -30,6 +30,7 @@
 
 .offer-icon {
     margin: 0 0 15px 0;
+    width: 80px;
 }
 
 
@@ -60,6 +61,14 @@
 
 }
 
+.dropdown-item {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.dropdown-item:hover {
+    background-color: #f18500;
+    color:rgb(255, 255, 255)
+}
 .list-item-index {
     width: 30%;
  
@@ -172,6 +181,10 @@
 .footer-link {
     color: rgb(255, 255, 255);
     font-size: 18px;
+   
+}
+.footer-item {
+    margin: 10px 0;
 }
 
 .footer-list {

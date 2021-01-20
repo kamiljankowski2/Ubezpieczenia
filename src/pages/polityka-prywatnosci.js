@@ -32,7 +32,7 @@ const NotFoundPage = () => {
             </li>
             <li>
               Operatorem serwisu oraz Administratorem danych osobowych jest:
-              Elwart Finanse Mateusz Elwart ul. Gdańska 10/11F, 85-110 Bydgoszcz
+              Elwart Finanse Mateusz Elwart Strażacka 37a, 89-200 Rynarzewo
             </li>
             <li>
               Adres kontaktowy poczty elektronicznej operatora:
@@ -54,12 +54,12 @@ const NotFoundPage = () => {
               ich zachowaniu w następujący sposób:
               <ul>
                 <li>
-                  Serwis realizuje funkcje pozyskiwania informacji o
-                  użytkownikach i ich zachowaniu w następujący sposób:
+                  Poprzez dobrowolnie wprowadzone w formularzach dane, które
+                  zostają wprowadzone do systemów Operatora.
                 </li>
                 <li>
-                  Serwis realizuje funkcje pozyskiwania informacji o
-                  użytkownikach i ich zachowaniu w następujący sposób:
+                  Poprzez zapisywanie w urządzeniach końcowych plików cookie
+                  (tzw. „ciasteczka”).
                 </li>
               </ul>
             </li>
