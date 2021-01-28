@@ -50,23 +50,22 @@ const News = ({ data }) => {
                       className="list-group-item single-post"
                       key={node.title}
                     >
-                      <img
-                        src={node.cover.url}
-                        className="thumbnail"
-                        alt={node.title}
-                      />
-                      <div className="post-info">
-                        <h2 className="border-heading font-weight-bold post-heading">
-                          {node.title}
-                        </h2>
-                        {node.date}
-                        <Link
-                          to={node.url}
-                          className="btn btn-primary btn-navy btn-more"
-                        >
-                          Czytaj
-                        </Link>
+                      <div>
+                        <img
+                          src={node.cover.url}
+                          className="thumbnail"
+                          alt={node.title}
+                        />
                       </div>
+                      <Link to={node.url} className="thumbnail-url">
+                        <div className="post-info">
+                          <h2 className="border-heading font-weight-bold post-heading">
+                            {node.title}
+                          </h2>
+                          <p className="thumbnail-date">{node.date}</p>
+                          <p className="thumbnail-text">{node.intro}</p>
+                        </div>
+                      </Link>
                     </li>
                   );
                 })}
@@ -88,6 +87,7 @@ export const query = graphql`
           title
           date
           url
+          intro
           cover {
             alt
             url

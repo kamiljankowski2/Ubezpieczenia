@@ -29,8 +29,15 @@ const Post = ({ pageContext: { slug }, data: { post } }) => {
 
       <Container className="mt-5">
         <Row>
-          <Col lg={12} className="mx-0 my-4 post-cover-container">
-            <img src={post.cover.url} className="post-cover" alt={post.title} />
+          {/* <Col sm={12} className="mx-0 my-4 post-cover-container">
+            <img src={post.cover.url} alt={post.title} />
+          </Col> */}
+          <Col md={12} sm={12} className="mb-3">
+            <img
+              src={post.cover.url}
+              alt={post.title}
+              className="section-image"
+            />
           </Col>
         </Row>
         <h1 className="h2 font-weight-bold mb-4 border-heading mb-3">
