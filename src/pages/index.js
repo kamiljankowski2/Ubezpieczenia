@@ -88,6 +88,7 @@ const IndexPage = ({ data }) => {
           Ubezpieczenia na życie, komunikacyjne, turystyczne i wiele innych –
           Elwart Ubezpieczenia
         </title>
+    <meta name="google-site-verification" content="tCOPMPyTFuykNCmuzMcgGk9PAyjzs5zYwt5s0WrwWcw" />
         <meta
           name="description"
           content="Oferujemy kompleksowe ubezpieczenia komunikacyjne, turystyczne, mieszkań i domów, na życie, a także wiele innych. Wyliczymy dla Ciebie ofertę spośród 30 największych Towarzystw Ubezpieczeniowych. "
